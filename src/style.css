@@ -36,8 +36,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  max-width: 1200px;
-  padding: 0 52px;
+  padding: 0 50px;
   margin: 0 auto;
 }
 
@@ -127,7 +126,6 @@ body {
 
 @media (max-width: 1199px) {
   .header-inner {
-    max-width: 1024px;
     padding: 0 50px;
   }
   .logo-link {
@@ -168,12 +166,8 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .header-inner {
-    max-width: 1200px;
-    padding: 0 50px;
-  }
+  /* At >=1200px nothing special needed; header remains fluid. */
   .navigation {
     margin-left: auto;
   }
 }
-
