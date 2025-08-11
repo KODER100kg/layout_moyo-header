@@ -157,16 +157,13 @@ body {
   }
 
   .nav-item {
-    margin: 0 8px 8px;
-  }
-
-  .nav-item:not(:last-child) {
+    margin-bottom: 8px;
+    margin-left: 8px;
     margin-right: 8px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* At >=1200px nothing special needed; header remains fluid. */
   .navigation {
     margin-left: auto;
   }
